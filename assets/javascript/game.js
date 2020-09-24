@@ -15,8 +15,6 @@ teamoneshootbutton.addEventListener("click", function () {
   teamonenumshots.innerHTML = teamoneshotstaken;
   if (Math.random() * 100 > 50) {
     console.log("Goals!");
-    const teamonenumgoals = document.querySelector("#teamone-numgoals");
-    teamonenumgoals.innerHTML;
   }
 });
 
